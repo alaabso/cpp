@@ -1,0 +1,19 @@
+https://github.com/msys2/msys2-installer/releases/download/2025-12-13/msys2-x86_64-20251213.exe
+
+
+Open MSYS2 UCRT64
+copy this command
+pacman -S mingw-w64-ucrt-x86_64-gcc
+
+Add this folder to Environment Variables → PATH:
+C:\msys64\ucrt64\bin
+
+
+compile program
+g++ greeting.cpp
+
+compile program
+g++ greeting.cpp -O2 -Wall -std=c++20 -o app
+
+
+
