@@ -1,6 +1,6 @@
 # Program List for Word Document
 
-This table contains all the programs in the project, with descriptive names formatted for direct use in a Word document.
+This table contains all the programs in the project, with descriptive names.
 
 | SN | Name |
 | :--- | :--- |
