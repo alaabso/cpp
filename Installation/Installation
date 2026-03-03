@@ -13,10 +13,25 @@ compile program
 g++ greeting.cpp
 
 compile program
-g++ greeting.cpp -O2 -Wall -std=c++20 -o app
+g++ greeting.cpp -o app
 
 
 Examples
 https://github.com/alaabso/cpp.git
+
+
+
+
+Extra commands (Use when needed)
+#Check c++ version
+g++ -dM -E -x c++ nul | findstr __cplusplus
+Above command possible outputs:
+    199711L → C++98
+
+    201103L → C++11
+    201402L → C++14
+    201703L → C++17
+    202002L → C++20
+    202302L → C++23
 
 
