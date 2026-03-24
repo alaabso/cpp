@@ -1,0 +1,31 @@
+if conditions = Branching
+Loops, while loop
+
+Syntax for IF
+
+if(condition) {
+
+}
+
+loop Syntax
+
+
+Initialize;
+while(condition) {
+ 
+ Increment;
+}
+
+
+
+
+
+Operators
++
+-
+*
+/
+<
+>
+<=
+>=
